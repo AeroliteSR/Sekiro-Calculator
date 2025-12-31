@@ -80,14 +80,14 @@ ClearcountDMG = { # for physical and attribute damage scaling
 }
 
 ClearcountDroprate = { # for sen and xp multipliers in ng+ cycles (respectively)
-                            0: [1, 1],
-                            1: [1, 1],
-                            2: [1.1, 1.5],
-                            3: [1.125, 2],
-                            4: [1.2, 2.5],
-                            5: [1.225, 3],
-                            6: [1.25, 3.5],
-                            7: [1.275, 4.5]}
+                            0: [1, 1], # ng
+                            1: [1, 1], # ng+1
+                            2: [1.1, 1.5], # ng+2
+                            3: [1.125, 2], # ng+3
+                            4: [1.2, 2.5], # ng+4
+                            5: [1.225, 3], # ng+5
+                            6: [1.25, 3.5], # ng+6
+                            7: [1.275, 4.5]} # ng+7
 
 SuperArmorDMG = { # for Super Armor dmg across NG cycles
                         False: { # charmed

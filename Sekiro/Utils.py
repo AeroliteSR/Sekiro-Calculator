@@ -582,3 +582,4 @@ class SekiroFunctions():
             val += SekiroFunctions.calculateEXP(i)
         return val
 
+print(SekiroFunctions.totalEXP(125))
